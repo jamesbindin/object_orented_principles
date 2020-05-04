@@ -30,6 +30,3 @@ b = Encap()
 b.set_name("John")
 name = b.get_name()
 print(name)
-
-
-
