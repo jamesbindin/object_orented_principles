@@ -1,4 +1,7 @@
-class BasicStrong:
+# encapsulisation ensures that each class is responsible for dealing with
+# its own properties. This allows the programmer to easily add validation
+# within setters and return the properties only if desired in getters
+class Encap:
     def __init__(self):
         self.name = None
         self.username = None
@@ -23,7 +26,7 @@ class BasicStrong:
         return self.password
 
 
-b = BasicStrong()
+b = Encap()
 b.set_name("John")
 name = b.get_name()
 print(name)
