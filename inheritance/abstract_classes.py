@@ -12,18 +12,11 @@ class AbstractClass(metaclass=abc.ABCMeta):
 
 
 class Child(AbstractClass):
-    def method1(cls):
+    def method1(self):
         print("Child")
 
-    def abstract_method(cls):
-        print("Implemented abstarct Method")
-
-class Child(AbstractClass):
-    def method1(cls):
-        print("Child")
-
-    def abstract_method(cls):
-        print("Implemented abstarct Method")
+    def abstract_method(self):
+        print("Implemented abstract Method")
 
 c = Child()
 c.method1()# prints: "Hello"
