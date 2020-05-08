@@ -7,7 +7,7 @@ import abc
 class AbstractClass(metaclass=abc.ABCMeta):
 
     @abc.abstractmethod
-    def abstract_method(cls):
+    def abstract_method(self):
         print("Hello")
 
 
