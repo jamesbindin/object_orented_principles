@@ -1,6 +1,6 @@
-# Properties can belong to the instance of a class or the class its self. below the company_name belongs to the class,
+# Properties can belong to the instance of a class or the class its self. Below the company_name belongs to the class,
 # where name, salary and age belong to the instance. Similarly class methods can only access class variables like
-# company_name. Static methods can not access anything belonging to the class or instance so are used as utility methods
+# company_name. Static methods can access the class but it is not passed as a perameter.
 
 
 class Employee:
